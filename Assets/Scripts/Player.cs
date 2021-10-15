@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     public float jumpForce;
     private bool isGrounded;
 
+    public int score;
+
     // Update is called once per frame
     void Update()
     {
@@ -58,5 +60,10 @@ public class Player : MonoBehaviour
     public void GameOver()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void AddScore(int amount)
+    {
+        score += amount;
     }
 }

@@ -10,4 +10,14 @@ public class Coin : MonoBehaviour
     {
         transform.Rotate(Vector3.up, rotateSpeed * Time.deltaTime);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        //If the collider tag is 'Player'...
+        if (other.CompareTag("Player"))
+        {
+            //Call AddScore() that is inside "Player" class.
+            other.GetComponent<Player>().AddScore(1);
+            Destroy(gameObject);
+        }
+    }
 }
