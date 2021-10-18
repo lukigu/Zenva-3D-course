@@ -261,7 +261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6109987951482959410, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: speed
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6109987951482959410, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: moveDistance
@@ -269,7 +269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6109987951482959410, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: moveDirection.x
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6109987951482959410, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: moveDirection.y
@@ -281,7 +281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7351868445340853685, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.08
+      value: 0.93
       objectReference: {fileID: 0}
     - target: {fileID: 7351868445340853685, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: m_LocalPosition.y
@@ -679,7 +679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6109987951482959410, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: speed
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6109987951482959410, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: moveDistance
@@ -756,7 +756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6109987951482959410, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: speed
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6109987951482959410, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: moveDistance
@@ -1306,7 +1306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6109987951482959410, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: speed
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6109987951482959410, guid: 08031ebfca98d2a498f040e9bf1a6812, type: 3}
       propertyPath: moveDistance
